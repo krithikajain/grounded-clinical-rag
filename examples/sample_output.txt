@@ -1,0 +1,69 @@
+You> Which notes mention cough and fever?
+Assistant: The notes that mention both cough and fever are:
+
+- **trec‑cds‑2014‑2** – lists fever and cough as active symptoms.  
+- **trec‑ct‑2022‑46** – lists cough, fever, and chills as active symptoms.  
+- **trec‑cds‑2015‑24** – the snippet describes a new fever and worsening cough.  
+- **pmc‑7665777‑1** – lists fever, cough, and dyspnea as active symptoms.  
+
+(Notes trec‑cds‑2016‑3 and trec‑cds‑2015‑9 do not mention fever.)
+
+Retrieved note_ids: ['trec-cds-2014-2', 'trec-ct-2022-46', 'trec-cds-2015-24', 'pmc-7665777-1', 'trec-cds-2016-3', 'trec-cds-2015-9']
+
+----------------------------------------------------------------------
+
+
+You> Which patients have hypertension?
+
+Assistant: The dashboard shows hypertension in four patients:
+
+- The elderly female in note **trec‑cds‑2016‑2** lists hypertension among her active conditions.  
+- The 49‑year‑old woman in note **pmc‑8677335‑1** has a history of well‑controlled hypertension.  
+- The 79‑year‑old woman in note **trec‑ct‑2021‑16** is noted to have pulmonary hypertension.  
+- The 23‑year‑old man in note **trec‑ct‑2021‑68** presents with high blood pressure (175/95 mmHg).  
+
+These are the only patients in the extracted data that mention hypertension or a related hypertensive condition. (note_ids: trec‑cds‑2016‑2, pmc‑8677335‑1, trec‑ct‑2021‑16, trec‑ct‑2021‑68)
+
+Retrieved note_ids: ['trec-cds-2016-2', 'pmc-8677335-1', 'trec-ct-2021-16', 'trec-ct-2021-68', 'trec-ct-2021-62', 'trec-cds-2015-1']
+
+----------------------------------------------------------------------
+
+You> Which notes explicitly deny diabetes?
+
+Assistant: I don't see that in the extracted dashboard data.
+
+Retrieved note_ids: ['trec-ct-2021-29', 'trec-ct-2021-65', 'trec-cds-2014-6', 'pmc-8674153-2', 'pmc-8675574-1', 'trec-ct-2021-21']
+
+----------------------------------------------------------------------
+
+You> Which notes describe exertional chest pain?
+
+
+Assistant: The only note that specifically mentions chest pain that is provoked by exertion is **trec‑cds‑2014‑1** (the 58‑year‑old woman whose burning anterior chest pain started while walking). No other extracted notes describe exertional chest pain.  
+
+**Citation:** note_id trec‑cds‑2014‑1.
+
+Retrieved note_ids: ['trec-cds-2014-1', 'pmc-8676056-2', 'trec-cds-2015-4', 'pmc-8695605-1', 'trec-cds-2014-3', 'pmc-8697878-1']
+
+----------------------------------------------------------------------
+
+You> Is COVID mentioned in any patient record?
+
+
+Assistant: Yes – COVID is referenced in the extracted data.  
+The note with ID **pmc‑8675596‑4** mentions a positive nasopharyngeal swab, COVID‑19 vaccination, and COVID‑related treatments.  
+
+(Reference: note_id pmc‑8675596‑4)
+
+Retrieved note_ids: ['pmc-8693539-1', 'trec-cds-2016-1', 'pmc-8693538-1', 'trec-cds-2016-4', 'pmc-8675596-4', 'pmc-8675570-1']
+
+----------------------------------------------------------------------
+
+You> Summarize the symptoms for the patient with note_id trec-cds-2014-4 
+
+Assistant: The 82‑year‑old woman reports a stabbing, substernal chest pain that radiates to her left shoulder and jaw. She also experiences shortness of breath when the pain awakens her in the morning. These are the primary symptoms noted in her presentation. (trec-cds-2015-4)
+
+Retrieved note_ids: ['trec-cds-2015-15', 'trec-cds-2016-10', 'trec-cds-2016-25', 'trec-cds-2015-19', 'trec-cds-2015-4', 'trec-cds-2016-13']
+
+----------------------------------------------------------------------
+
