@@ -50,17 +50,27 @@ This is a proper embedding-based Retrieval-Augmented Generation (RAG) system.
 
 ### 1. Clone Repository
 
-### 2. Create Virtual Environment
-python3 -m venv .venv
+### 2. Create & Activate Virtual Environment
+```python3 -m venv .venv
 source .venv/bin/activate
-
+```
 ### 3. Install Dependencies
-python3 -m venv .venv
-source .venv/bin/activate
+```
+pip install -r requirements.txt
+```
 
-### Ollama Setup
-### run rag_chat.py for talking with the chatbot
+### 4. Ollama Setup (Required for LLM)
+```
+brew install ollama
+ollama pull (required models)
+ollama serve
+```
+(Leave this running in a separate terminal.)
 
+### 5. Run the Chatbot
+```
+python src/rag_chat.py
+```
 
 
 
